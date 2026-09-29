@@ -74,35 +74,85 @@
     }],
     "description": "Transporte de cargas municipal em Fortaleza com 10 anos de experiência, segurança e pontualidade."
   }
-  </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "A Transmello realiza transporte municipal?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Sim. A Transmello é especializada em operações municipais, atendendo empresas que precisam movimentar cargas dentro de Fortaleza com segurança e pontualidade." }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://github.io",
+      "name": "Transportadora Transmello",
+      "alternateName": "Transmello",
+      "url": "https://giliademelo.github.io/site-transportadora",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://github.io",
+        "url": "https://github.io",
+        "width": "512",
+        "height": "512",
+        "caption": "Logotipo Oficial da Transportadora Transmello"
       },
-      {
-        "@type": "Question",
-        "name": "Como solicitar uma coleta?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Entre em contato pelo WhatsApp e informe sua necessidade de transporte. Nossa equipe irá orientar sobre disponibilidade e condições para agendar a coleta." }
+      "description": "Há 10 anos conectando empresas e destinos por meio de um transporte de cargas seguro, ágil e eficiente em Fortaleza.",
+      "telephone": "+55-85-8680-3597",
+      "email": "contatotransmelo@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Antonio de Castro, 779",
+        "addressLocality": "Cidade dos Funcionários",
+        "addressRegion": "CE",
+        "postalCode": "60822-510",
+        "addressCountry": "BR"
       },
-      {
-        "@type": "Question",
-        "name": "Como entrar em contato?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Você pode nos chamar pelo WhatsApp ou telefone no número (85) 8680-3597, ou enviar um e-mail para contatoTransmello@gmail.com." }
-      },
-      {
-        "@type": "Question",
-        "name": "Onde fica a Transmello?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Estamos localizados na Rua Antonio de Castro, 779, Cidade dos Funcionários, Fortaleza — CE, CEP 60822-510." }
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-85-8680-3597",
+        "contactType": "customer service",
+        "areaServed": "BR",
+        "availableLanguage": "Portuguese"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://github.io",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A Transmello realiza transporte municipal?",
+          "acceptedAnswer": { 
+            "@type": "Answer", 
+            "text": "Sim. A Transmello é especializada em operações municipais, atendendo empresas que precisam movimentar cargas dentro de Fortaleza com segurança e pontualidade." 
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como solicitar uma coleta?",
+          "acceptedAnswer": { 
+            "@type": "Answer", 
+            "text": "Entre em contato pelo WhatsApp e informe sua necessidade de transporte. Nossa equipe irá orientar sobre disponibilidade e condições para agendar a coleta." 
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como entrar em contato?",
+          "acceptedAnswer": { 
+            "@type": "Answer", 
+            "text": "Você pode nos chamar pelo WhatsApp ou telefone no número (85) 8680-3597, ou enviar um e-mail para contatoTransmello@gmail.com." 
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onde fica a Transmello?",
+          "acceptedAnswer": { 
+            "@type": "Answer", 
+            "text": "Estamos localizados na Rua Antonio de Castro, 779, Cidade dos Funcionários, Fortaleza — CE, CEP 60822-510." 
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 
   <style>
     html {
